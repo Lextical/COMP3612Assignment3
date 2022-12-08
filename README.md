@@ -30,6 +30,8 @@ https://easy-thin-math.glitch.me/api/painting/color/NAPA
 
 https://easy-thin-math.glitch.me/api/painting/color/coffee%20bean
 
+https://easy-thin-math.glitch.me/api/painting/color/kcvhvxchbkcj
+
 https://easy-thin-math.glitch.me/api/artists
 
 https://easy-thin-math.glitch.me/api/artists/Netherlands
