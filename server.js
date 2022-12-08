@@ -67,7 +67,7 @@ app.get('/api/painting/title/:substring', (req,resp) => {
     resp.json(checkData(matches));
 });
 
-app.get('/api/painting/color/:name', (req,resp) => {          //Did I do this one right????
+app.get('/api/painting/color/:name', (req,resp) => {    
     const paintingToFind = req.params.name.toUpperCase();
     const matches = paintings.filter(obj => {
         for(col of obj.details.annotation.dominantColors){
@@ -110,13 +110,7 @@ function checkData(matches){
     }
 }
 
-
-//used this for Glitch default
-const listener = app.listen(process.env.PORT, () => {
-    console.log("App listening on port " + listener.address().port);
+let port = 3000;
+app.listen(port, () => {
+    console.log("Server running at port= " + port);
 });
-
-// let port = 8080;
-// app.listen(port, () => {
-//     console.log("Server running at port= " + port);
-// });
