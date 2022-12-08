@@ -1,0 +1,14 @@
+{
+  "name": "f2022-assign3-master",
+  "version": "1.0.0",
+  "description": "**Please view `COMP3612 Assignment 3.pdf` for instructions**",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
